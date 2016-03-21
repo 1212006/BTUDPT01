@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://nndung.net/demo/responsive-demo/ -->
+<html lang="en"><object id="__IDM__" type="application/x-idm-downloader" width="1" height="1" style="visibility: hidden !important; display: block !important; position: absolute !important; top: 0px !important; left: 0px !important; width: 1px !important; height: 1px !important; border-width: 0px !important;"></object><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>test: Thiet ke giao dien responsive</title>
+
+<!-- css3-mediaqueries.js for IE8 or older -->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<style type="text/css">
+
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+}
+a {
+	color: #669;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font: bold 36px/100% Arial, Helvetica, sans-serif;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#header {
+	height: 180px;
+}
+#content {
+	width: 600px;
+	float: left;
+}
+#sidebar {
+	width: 300px;
+	float: right;
+}
+#footer {
+	clear: both;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+
+/* border & guideline (you can ignore these) */
+#content {
+	background: #f8f8f8;
+}
+#sidebar {
+	background: #f0efef;
+}
+#header, #content, #sidebar {
+	margin-bottom: 5px;
+}
+#pagewrap, #header, #content, #sidebar, #footer {
+	border: solid 1px #ccc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="pagewrap">
+
+	<div id="header">
+		<h1>Header</h1>
+		<p>Welcome to <a href="#"></a> </p>
+	</div>
+
+	<div id="content">
+		<h2>Content</h2>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+	</div>
+
+	<div id="sidebar">
+		<h3>Sidebar</h3>
+		<p>text</p>
+		<p>text</p>
+	</div>
+	
+	<div id="footer">
+		<h4>Footer</h4>
+	</div>
+
+</div>
+
+
+
+</body></html>
