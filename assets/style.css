@@ -1,0 +1,18 @@
+@charset "utf-8";
+.center {
+ 	text-align: center;
+   	color: black;
+}
+.large {
+   	font-size: 200%;
+}
+#mssv {
+   	background-color: white;
+   	color: blue;
+}
+img  {
+	float: left;
+}
+p  {
+	font-size: 150%;
+}
