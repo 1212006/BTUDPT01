@@ -3,6 +3,12 @@
  	text-align: center;
    	color: black;
 }
+
+.right {
+ 	text-align: right;
+   	color: black;
+}
+
 .large {
    	font-size: 200%;
 }
@@ -40,19 +46,12 @@ STRUCTURE
 *************************************************************************************/
 #pagewrap {
 	padding: 5px;
-	width: 760px;
+	width: 660px;
 	margin: 20px auto;
 }
 #header {
 }
 #content {
-	width: 754px;
-	float: left;
-	height: auto;
-}
-#sidebar {
-	width: 300px;
-	float: right;
 }
 #footer {
 	clear: both;
@@ -62,29 +61,17 @@ MEDIA QUERIES
 *************************************************************************************/
 /* for 980px or less */
 @media screen and (max-width: 980px) {
-	
-	#pagewrap {
-		width: 94%;
-	}
-	#content {
-		width: 65%;
-	}
-	#sidebar {
-		width: 30%;
-	}
 
+	#pagewrap {
+		width: 560px;
+	}
 }
 
 /* for 700px or less */
 @media screen and (max-width: 700px) {
 
-	#content {
-		width: auto;
-		float: none;
-	}
-	#sidebar {
-		width: auto;
-		float: none;
+	#pagewrap {
+		width: 460px;
 	}
 
 }
@@ -92,14 +79,8 @@ MEDIA QUERIES
 /* for 480px or less */
 @media screen and (max-width: 480px) {
 
-	#header {
-		height: auto;
-	}
-	h1 {
-		font-size: 24px;
-	}
-	#sidebar {
-		display: none;
+	#pagewrap {
+		width: 460px;
 	}
 
 }
@@ -108,13 +89,10 @@ MEDIA QUERIES
 #content {
 	background: white;
 }
-#sidebar {
-	background: white;
-}
 #header, #content, #sidebar {
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
-#header, #content, #sidebar, #footer {
+#header, #content, #footer {
 	border: solid 3px black;
 }
