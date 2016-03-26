@@ -1,0 +1,98 @@
+@charset "utf-8";
+.center {
+ 	text-align: center;
+   	color: black;
+}
+
+.right {
+ 	text-align: right;
+   	color: black;
+}
+
+.large {
+   	font-size: 200%;
+}
+#mssv {
+   	background-color: white;
+   	color: blue;
+}
+img  {
+	float: left;
+}
+p  {
+	font-size: 100%;
+}
+
+
+
+
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+}
+a {
+	color: #669;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font: bold 24px/100% Arial, Helvetica, sans-serif;
+	color: blue;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	padding: 5px;
+	width: 660px;
+	margin: 20px auto;
+}
+#header {
+}
+#content {
+}
+#footer {
+	clear: both;
+}
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 560px;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#pagewrap {
+		width: 460px;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#pagewrap {
+		width: 460px;
+	}
+
+}
+
+/* border & guideline (you can ignore these) */
+#content {
+	background: white;
+}
+#header, #content, #sidebar {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#header, #content, #footer {
+	border: solid 3px black;
+}
