@@ -41,6 +41,21 @@ h1 {
 	color: blue;
 }
 
+.container{
+	width: 654px;
+	overflow: auto;
+}
+
+#picture{
+	width: 327px;
+	float: left;
+}
+
+#info{
+	width: 327px;
+	float: right;
+}
+
 /************************************************************************************
 STRUCTURE
 *************************************************************************************/
@@ -85,7 +100,7 @@ MEDIA QUERIES
 
 }
 
-/* border & guideline (you can ignore these) */
+/* border & guideline*/
 #content {
 	background: white;
 }
