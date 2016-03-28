@@ -20,7 +20,7 @@ p  {
 	font-size: 100%;
 }
 
-
+img{max-width: 100%;}
 
 
 body {
@@ -54,7 +54,6 @@ STRUCTURE
 }
 #banner {
 	width: 100%;
-	overflow: auto;
 }
 #header {
 	width: 100%;
@@ -84,13 +83,14 @@ STRUCTURE
 }
 
 #leftside{
-	width: 35%;
+	width: 30%;
 	float: left;
+	background: 	#7CFC00;
 }
 
 #mainside{
-	width:60%;
-	
+	width:70%;
+	float: right;
 }
 /************************************************************************************
 MEDIA QUERIES
@@ -112,7 +112,7 @@ MEDIA QUERIES
 	
 }
 /* border & guideline*/
-/*#content {
+#content {
 	background: white;
 }
 #header, #content, #sidebar {
@@ -123,4 +123,4 @@ MEDIA QUERIES
 	border: solid 3px black;
 }
 #header {
-}*/
+}
