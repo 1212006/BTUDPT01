@@ -54,6 +54,7 @@ STRUCTURE
 }
 #banner {
 	width: 100%;
+	height: 20%;
 }
 #header {
 	width: 100%;
@@ -80,6 +81,7 @@ STRUCTURE
 	width: 50%;
 	float: right;
 	margin: 0;
+	word-wrap: break-word;
 }
 
 #leftside{
@@ -92,34 +94,98 @@ STRUCTURE
 	width:70%;
 	float: right;
 }
+
+#info_main_left{
+	width: 50%;
+	float:left;
+}
+#info_main_right{
+	width: 50%;
+	float:right;
+}
+
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
-/* for 980px or less */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	
-}
+@media only screen and (max-width: 480px)
+{
+		#pagewrap{
+		width: 100%;
+		margin: 0px auto;
+	}			
+	#picture{
+		width: 100%;
+		float: none;
+	}
 
-@media only screen and (max-width: 767px) {
-	.featured{width:100%;}
+	#info{
+		width: 100%;
+		float: none;
+	}	
+	
+	#leftside{
+		width: 100%;
+		float: none;
+	}
+
+	#mainside{
+		width:100%;
+		float: none;
+	}
+	
+
+}
+@media only screen and (max-width: 640px)
+{
+		#pagewrap{
+		width: 90%;
+		margin: 10px auto;
+	}		
 	nav {width:100%;background:none;height:auto;}
 	nav ul li {float: none;background:#3366CC;text-align:center;padding-bottom:0px;margin-top:5px;}
 	#content{background-color:#ffffff;}
 	
-}
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 768px)
+{
+		#pagewrap{
+		width: 80%;
+		margin: 20px auto;
+	}
 	
+}
+@media only screen and (max-width: 1024px)
+{
+		#pagewrap{
+		width: 70%;
+		margin: 20px auto;
+	}
+	#info_main_left{
+		width: 100%;
+		float:none;
+	}
+	#info_main_right{
+		width: 100%;
+		float:left;
+	}	
+}
+@media only screen and (min-width: 1025px)
+{
+		#pagewrap{
+		width: 60%;
+		margin: 20px auto;
+	}			
 }
 /* border & guideline*/
 #content {
 	background: white;
 }
-#header, #content, #sidebar {
+#content, #sidebar {
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
-#header, #content, #footer {
+#content, #footer {
 	border: solid 3px black;
 }
 #header {
