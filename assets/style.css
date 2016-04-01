@@ -68,13 +68,13 @@ STRUCTURE
 	clear: both;
 }
 #picture{
-	width: 50%;
+	width: 30%;
+	padding: 2% 10% 10%;
 	float: left;
 }
 
-#picture_show{
-	width: 80%;
-	padding: 0 10% 10%;
+#picture_p{
+	padding: 10% 10% 10%;
 }
 
 #info{
@@ -87,7 +87,7 @@ STRUCTURE
 #leftside{
 	width: 30%;
 	float: left;
-	background: 	#7CFC00;
+	background: #f8f8f8;
 }
 
 #mainside{
