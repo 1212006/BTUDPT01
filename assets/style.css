@@ -39,11 +39,41 @@ h1 {
 }
 
 /*nav css*/
-nav {width:100%;height: 43px;margin: 0 auto 15px auto;background:#3366CC; border:1px solid #FFF;-webkit-border-radius: 5px;-moz-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;}
-nav ul {list-style: none;margin: 0;padding: 0 5px;}
-nav ul li {position: relative;float: left;padding: 5px;}
-nav ul li:hover {background: url('images/nav.jpg') repeat-x;}
-nav ul li a {font-size: 15px; color: #ffffff;display: block;padding: 6px 10px 6px 10px;margin-bottom: 5px;z-index: 6;position: relative;font-weight:bold; text-transform:uppercase;}
+nav {
+	width:100%;
+	height: 43px;
+	margin: 0 auto 15px auto;
+	background:#3366CC; 
+	border:1px solid #FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 5px;
+}
+nav ul li {
+	position: relative;
+	float: left;
+	padding: 5px;
+}
+nav ul li:hover {
+	background: url('images/nav.jpg') repeat-x;
+}
+nav ul li a {
+	font-size: 15px; 
+	color: #ffffff;
+	display: block;
+	padding: 6px 10px 6px 10px;
+	margin-bottom: 5px;
+	z-index: 6;
+	position: relative;
+	font-weight:bold;
+	text-transform:uppercase;
+}
 
 /************************************************************************************
 STRUCTURE
@@ -104,6 +134,15 @@ STRUCTURE
 	float:right;
 }
 
+#picture_team{
+	width: 80%;
+	padding: 0 10%;
+}
+#picture_footer{
+	width: 50%;
+	float: left;
+}
+
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
@@ -114,7 +153,7 @@ MEDIA QUERIES
 		margin: 0px auto;
 	}			
 	#picture{
-		width: 100%;
+		width: 80%;
 		float: none;
 	}
 
@@ -133,6 +172,10 @@ MEDIA QUERIES
 		float: none;
 	}
 	
+	#picture_footer{
+		width: 100%;
+		float:none;
+	}
 
 }
 @media only screen and (max-width: 640px)
@@ -153,7 +196,11 @@ MEDIA QUERIES
 		width: 80%;
 		margin: 20px auto;
 	}
-	
+
+		#picture_team{
+		width: 100%;
+		padding: 0;
+	}	
 }
 @media only screen and (max-width: 1024px)
 {
@@ -180,13 +227,9 @@ MEDIA QUERIES
 /* border & guideline*/
 #content {
 	background: white;
+	border: solid 3px black;
 }
 #content, #sidebar {
 	margin-bottom: 0px;
 	margin-top: 0px;
-}
-#content, #footer {
-	border: solid 3px black;
-}
-#header {
 }
