@@ -2,7 +2,8 @@
 
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: **1212006-Nguyễn Đức Anh**
+**1212437-Phan Ngọc Triều**
 
 URL: **URL hosting của bài tập**
 
@@ -11,24 +12,24 @@ URL: **URL hosting của bài tập**
 Yêu cầu **GIT**:
 
 * [x] Có sử dụng GIT.
-* [ ] Sử dụng GIT trên 1 branch.
-* [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [x] Sử dụng GIT trên 1 branch.
+* [x] Sử dụng GIT theo Centralized Workflow.
+* [x] Sử dụng GIT theo Feature Branch Workflow.
+* [x] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
-* [ ] Thiết kế theo table.
-* [ ] Thiết kế với div.
-* [ ] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
+* [x] Thiết kế theo table.
+* [x] Thiết kế với div.
+* [x] Thiết kế nâng cao
+    * [x] Navigation, header, footer, sidebar.
+    * [x] Các hiệu ứng: hover, focus,...
 * [ ] Thiết kế chạy trên nhiều trình duyệt
-    * [ ] IE
-    * [ ] Firefox
-    * [ ] Chrome
-    * [ ] Icon, màu sắc,...
-* [ ] Thiết kế responsive
+    * [x] IE
+    * [x] Firefox
+    * [x] Chrome
+    * [x] Icon, màu sắc,...
+* [x] Thiết kế responsive
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
