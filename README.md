@@ -5,7 +5,7 @@
 Thành viên: **1212006-Nguyễn Đức Anh**
 **1212437-Phan Ngọc Triều**
 
-URL: **URL hosting của bài tập**
+URL: **http://udpt-bt1-submit.byethost7.com/BTUDPT01/main.html**
 
 ## Yêu cầu
 
