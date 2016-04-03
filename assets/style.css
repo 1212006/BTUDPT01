@@ -121,7 +121,7 @@ STRUCTURE
 }
 
 #mainside{
-	width:70%;
+	width: 69%;
 	float: right;
 }
 
@@ -225,11 +225,15 @@ MEDIA QUERIES
 	}			
 }
 /* border & guideline*/
-#content {
+#content{
 	background: white;
 	border: solid 3px black;
 }
 #content, #sidebar {
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+#mainside {
+	background: white;
+	border-left: solid 3px black;
 }
